@@ -6,7 +6,8 @@ This is a [Singer](http://singer.io) tap that produces JSON-formatted data follo
 
 ## Description
 
-Singer target that will allow us to take data piped from a Singer tap and send it to a web endpoint (via a HTTP GET or HTTP POST). Below is a visual illustration:
+Singer target that will allow us to take data piped from a Singer tap and send it to a web endpoint (via a HTTP GET or HTTP POST). 
+Below is a visual illustration:
 
 ![target-web_endpoint](docs/target-web_endpoint_dataflow.png)
 
