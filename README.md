@@ -50,7 +50,7 @@ There is a template you can use at `config.json.example`, just copy it to `confi
     "field2": { "target_field_name": "target_field_2"},
     "field3": { "target_field_name": "target_field_3"},
     "field4": { "target_field_name": "field_4"},
-    "field5": { "target_field": "field_5"}
+    "field5": { "target_field_name": "field_5"}
   },
   "additional_properties": {
     "system_id": 12,
