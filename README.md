@@ -2,7 +2,7 @@
 
 Author: Jay Grossman (jay@grossman.org)
 
-This is a [Singer](http://singer.io) tap that produces JSON-formatted data following the [Singer spec](https://github.com/singer-io/getting-started/blob/master/SPEC.md).
+This is a [Singer](http://singer.io) taregt that consumes JSON-formatted data following the [Singer spec](https://github.com/singer-io/getting-started/blob/master/SPEC.md).
 
 ## Description
 
