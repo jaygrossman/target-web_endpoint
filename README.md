@@ -6,14 +6,17 @@ This is a [Singer](http://singer.io) tap that produces JSON-formatted data follo
 
 ## Description
 
-This is a fun learning project with the goal to create a Singer target that can:
-1. Send record data (piped from a tap) to a url endpoint via HTTP GET or HTTP Post.
-2. Allows for configuration of auth creds and HTTP Headers for HTTP Post method.
-3. Allows for configuration to map source data field names to target system's data field names.
-4. Allows for configuration to specify additional properties (with static values) to send to endpoint.
-5. Allows for configuration to specify VERY BASIC filter rules based on the record values.
+Singer target that will allow us to take data piped from a Singer tap and send it to a web endpoint (via a HTTP GET or HTTP POST). Below is a visual illustration:
 
 ![target-web_endpoint](docs/target-web_endpoint_dataflow.png)
+
+This target supports the following requirements:
+
+1. Sending record data (piped from a tap) to a url endpoint via HTTP GET or HTTP Post.
+2. Configuration of auth creds and HTTP Headers for HTTP Post method.
+3. Configuration to map source data field names to target system's data field names.
+4. Configuration to specify additional properties (with static values) to send to endpoint.
+5. Configuration to specify VERY BASIC filter rules based on the record values.
 
 
 ## Usage
