@@ -1,0 +1,10 @@
+{
+  "files":	[ 	
+    {
+	  "entity" : "searches",
+	  "path" : "sample_data/sample_data.csv",
+	  "keys" : ["keywords"],
+	  "delimiter": ","
+	}
+  ]
+}

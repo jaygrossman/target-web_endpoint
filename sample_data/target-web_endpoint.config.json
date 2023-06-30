@@ -1,0 +1,10 @@
+{
+  "method" : "GET",
+  "url": "https://github.com/search", 
+  "property_mapping": {
+    "keywords": { "target_field_name": "q"}
+  },
+  "filter_rules": {
+    "keywords": { "type": "is_empty", "value": false }
+  }
+}
