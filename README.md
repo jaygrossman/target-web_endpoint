@@ -119,10 +119,10 @@ deactivate
 It returns the following:
 
 ```bash
-2023-06-29 23:17:10,957 | INFO     | tap-csv              | Beginning full_table sync of 'seacrhes'...
+2023-06-29 23:17:10,957 | INFO     | tap-csv              | Beginning full_table sync of 'searches'...
 2023-06-29 23:17:10,957 | INFO     | tap-csv              | Tap has custom mapper. Using 1 provided map(s).
-2023-06-29 23:17:10,957 | INFO     | singer_sdk.metrics   | METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.000225067138671875, "tags": {"stream": "seacrhes", "context": {}, "status": "succeeded"}}
-2023-06-29 23:17:10,957 | INFO     | singer_sdk.metrics   | METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "seacrhes", "context": {}}}
+2023-06-29 23:17:10,957 | INFO     | singer_sdk.metrics   | METRIC: {"type": "timer", "metric": "sync_duration", "value": 0.000225067138671875, "tags": {"stream": "searches", "context": {}, "status": "succeeded"}}
+2023-06-29 23:17:10,957 | INFO     | singer_sdk.metrics   | METRIC: {"type": "counter", "metric": "record_count", "value": 1, "tags": {"stream": "searches", "context": {}}}
 url: https://github.com/search?q=tap-ebaycompleted, response: <Response [200]>
-{"bookmarks": {"seacrhes": {}}}
+{"bookmarks": {"searches": {}}}
 ```
